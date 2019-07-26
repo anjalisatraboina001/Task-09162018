@@ -14,8 +14,7 @@ class DatabaseLoader {
 	CommandLineRunner init(EmployeeRepository repository) {
 
 		return args -> {
-			repository.save(new Employee("Frodo", "Baggins", "ring bearer"));
-			repository.save(new Employee("Bilbo", "Baggins", "burglar"));
+			repository.save(new Employee("anjali", "manish", "navya"));
 		};
 	}
 
